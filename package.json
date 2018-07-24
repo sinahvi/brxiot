@@ -1,0 +1,21 @@
+{ "name"                : "swxiot"
+, "description"         : "IoT device gateway socomec, restful "
+, "author"              : "steffenwolf"
+, "license"             : "MIT"
+, "version"             : "0.0.1"
+, "dependencies"        : {}
+, "bundleDependencies"  : []
+, "scripts"             : { "start"       : "node server.js"
+                          }
+, "main"                : "server.js"
+, "engines"             : { "node"  : "*"
+                          , "npm"   : "*"
+                          }
+
+, "config"              : {
+                            "BACKUP_TIME" :     15000
+                          , "DELTA"       :     0.001
+                          , "MESS_TIME"   :       500
+			  , "IS_LOG"      : false	
+                          }
+}
