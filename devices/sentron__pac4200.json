@@ -1,0 +1,35 @@
+{ "name"          : "SENTRON_PAC_4200"
+, "ersteller"     : "DZSB12T"
+, "startadresse"  : 1
+, "wortelesen"    : 56
+
+, "auswahl"       : ["F","THD-U-L1","I-L1","U-L1-N"]
+
+, "U_L1_N"   			: { "offset":  1,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "U_L2_N"        : { "offset":  3,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "U_L3_N"        : { "offset":  5,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+
+, "U_L1_L2"       : { "offset":  7,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "U_L2_L3"       : { "offset":  9,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "U_L3_L1"       : { "offset": 11,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+
+, "I_L1"          : { "offset": 13,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "I_L2"          : { "offset": 15,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "I_L3"          : { "offset": 17,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+
+, "S_L1"          : { "offset": 19,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "S_L2"          : { "offset": 21,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "S_L3"          : { "offset": 23,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+
+
+, "P_L1"          : { "offset": 25,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "P_L2"          : { "offset": 27,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "P_L3"          : { "offset": 29,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+
+
+, "THD-U-L1"      : { "offset": 43,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "THD-U-L2"      : { "offset": 45,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "THD-U-L3"      : { "offset": 47,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+
+, "F"             : { "offset": 55,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+}

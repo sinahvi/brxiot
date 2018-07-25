@@ -1,0 +1,27 @@
+{ "name"          : "JANITZA_UMG_580"
+, "ersteller"     : "DZSB12T"
+, "startadresse"  : 19000
+, "wortelesen"    : 52
+
+, "auswahl"       : ["F","COSPHI_L1","I-L1","U-L1-N"]
+
+, "U_L1_N"   			: { "offset":  0,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "U_L2_N"        : { "offset":  2,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "U_L3_N"        : { "offset":  4,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "U_L1_L2"       : { "offset":  6,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "U_L2_L3"       : { "offset":  8,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "U_L3_L1"       : { "offset": 10,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "I_L1"          : { "offset": 12,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "I_L2"          : { "offset": 14,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "I_L3"          : { "offset": 16,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "I_L123"        : { "offset": 18,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "P_L1"          : { "offset": 20,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "P_L2"          : { "offset": 22,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "P_L3"          : { "offset": 24,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "P_L123"        : { "offset": 26,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+
+, "COSPHI_L1"     : { "offset": 44,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "COSPHI_L2"     : { "offset": 46,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "COSPHI_L3"     : { "offset": 48,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+, "F"             : { "offset": 50,   "fun":"readFloatBE",  "faktor": 1, "rdmfun" : "(v)=>v", "value" : 22031 }
+}
